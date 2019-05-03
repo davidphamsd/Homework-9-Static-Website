@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="locations.css">
+    <link rel="stylesheet" href="wrap.css"
+
+
+</head>
+
+<nav>
+    <div class="dropdown">
+        <button class="dropbtn">Plots</button>
+    <div class="dropdown-content">
+             <a href="Cloudiness.html">Cloudiness</a>
+             <a href="Humidity.html">Humidity</a>
+             <a href="Max_Temperature.html">Max Temperature</a>
+             <a href="Wind_Speed.html">Wind Speed</a>
+     </div>
+     </div>
+    
+    <div class="dropdown">
+        <a class="dropbtn" href="Comparisons.html">Comparisons</a>
+    </div>
+
+    <div class="dropdown">
+         <a class="dropbtn" href="Dataset.html">Dataset</a>
+    </div>
+</nav>
+
+
+
+
+
+<body>
+    <home>
+        <h1><strong>Summary: Latitude vs. X</strong></h1>
+            <p><strong>Purpose</strong></p>
+            <h3><img style="width:250px" src = "https://www.wistv.com/pb/resources/images/weather/weather-condition-icons/400x400/66_daily_forecast.png" alt = "Test Image" /></h3>
+            <p>The purpose of this assignment was to use Python, Python APIs and my knowledge of Matplotlib and Pandas to analze data about how weather changes as we move closer to the equator. </p>
+            <p>To start off this assignment, I pulled data using Open Weather Map's API. With this I was able to gather a dataset of over 500 cities.</p>
+            <p>After pulling this data and converting it to a CSV file, I use my knowledge of Matplotlib and Pandas to plot various various aspects of weather versus latitude. Factors I looked into included: temperature, cloudiness, wind speed and humidity. </p>
+            <p>This site showcase my homework as well as what I have learn about HTML and CSS.</p>
+            <p>I hope you enjoy.</p>
+        <h2><strong>Visualization</strong></h2>
+            <p><strong>Please Note that all pictures below are clickable!</strong></p>
+            <p>Below are the charts that I created for this project. Each chart compares the city latitude with different components.</p>
+            <p>The components are Cloudiness, Humidity, Max Temperature, and Wind Speed.</p>
+            <p>Each chart can be further explain on it's own section in the Plot section of the dropdown menu</p>
+
+            <a href="Cloudiness.html">
+                <img src = "latitude_v_cloudiness.png" alt = "Test Image"
+            </a>
+
+            <a href="Humidity.html">
+                <img src = "latitude_v_humidity.png" alt = "Test Image"
+            </a>
+            
+            <a href="Max_Temperature.html">
+                <img src = "latitude_v_temp.png" alt = "Test Image"
+            </a>
+            
+            <a href="Wind_Speed.html">
+                <img src = "latitude_v_windspeed.png" alt = "Test Image"
+            </a>
+        
+        </home>
+</body>
+
+
+</html>
